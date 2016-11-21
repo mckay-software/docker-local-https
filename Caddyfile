@@ -1,3 +1,4 @@
-0.0.0.0:443
+localhost:443
+bind 0.0.0.0
 tls self_signed
 proxy / http://{$BACKEND}
